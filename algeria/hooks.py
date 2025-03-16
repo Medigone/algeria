@@ -245,6 +245,6 @@ after_migrate = "algeria.config.defaults.apply_defaults"
 # }
 
 fixtures = [
-    {"dt": "Commune"},
-    {"dt": "Wilaya"}
+    {"dt": "Commune", "ignore_links": 1, "ignore_if_exists": 1},
+    {"dt": "Wilaya", "ignore_links": 1, "ignore_if_exists": 1}
 ]

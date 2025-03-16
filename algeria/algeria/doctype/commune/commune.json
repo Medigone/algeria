@@ -2,7 +2,6 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "format:C-{#####}",
  "creation": "2024-12-08 18:39:51.431435",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -53,11 +52,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-16 15:06:15.903365",
+ "modified": "2025-03-16 16:13:58.813868",
  "modified_by": "Administrator",
  "module": "Algeria",
  "name": "Commune",
- "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
