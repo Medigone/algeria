@@ -84,6 +84,8 @@ required_apps = ["erpnext"]
 
 # before_install = "algeria.install.before_install"
 # after_install = "algeria.install.after_install"
+after_migrate = "algeria.config.defaults.apply_defaults"
+
 
 # Uninstallation
 # ------------
