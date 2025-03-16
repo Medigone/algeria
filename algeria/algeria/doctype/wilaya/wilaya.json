@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:nom",
  "creation": "2024-12-08 18:51:09.982854",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -29,7 +30,8 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Nom"
+   "label": "Nom",
+   "unique": 1
   },
   {
    "fieldname": "nom_ar",
@@ -48,10 +50,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-16 13:07:59.294007",
+ "modified": "2025-03-16 13:12:50.182576",
  "modified_by": "Administrator",
  "module": "Algeria",
  "name": "Wilaya",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
