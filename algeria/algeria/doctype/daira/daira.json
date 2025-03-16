@@ -2,56 +2,38 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "creation": "2024-12-08 18:51:09.982854",
+ "creation": "2025-03-16 12:47:45.562854",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "nom",
   "nom_ar",
-  "column_break_qaoe",
-  "code",
-  "region"
+  "wilaya"
  ],
  "fields": [
   {
-   "fieldname": "column_break_qaoe",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "code",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Code"
-  },
-  {
    "fieldname": "nom",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Nom"
   },
   {
    "fieldname": "nom_ar",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
    "label": "Nom Arabe"
   },
   {
-   "fieldname": "region",
+   "fieldname": "wilaya",
    "fieldtype": "Link",
-   "in_standard_filter": 1,
-   "label": "R\u00e9gion",
-   "options": "Territory"
+   "label": "Wilaya",
+   "options": "Wilaya"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-16 13:07:59.294007",
+ "modified": "2025-03-16 13:08:08.024985",
  "modified_by": "Administrator",
  "module": "Algeria",
- "name": "Wilaya",
+ "name": "Daira",
  "owner": "Administrator",
  "permissions": [
   {

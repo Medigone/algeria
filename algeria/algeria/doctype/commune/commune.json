@@ -1,23 +1,18 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2024-12-08 18:39:51.431435",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title",
-  "wilaya",
+  "nom",
+  "nom_ar",
   "column_break_mecf",
-  "code",
-  "region"
+  "daira",
+  "wilaya"
  ],
  "fields": [
-  {
-   "fieldname": "title",
-   "fieldtype": "Data",
-   "label": "Titre",
-   "search_index": 1
-  },
   {
    "fieldname": "wilaya",
    "fieldtype": "Data",
@@ -28,20 +23,27 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "code",
+   "fieldname": "nom",
    "fieldtype": "Data",
-   "label": "Code"
+   "label": "Nom",
+   "search_index": 1
   },
   {
-   "fieldname": "region",
+   "fieldname": "nom_ar",
+   "fieldtype": "Data",
+   "label": "Nom Arabe",
+   "search_index": 1
+  },
+  {
+   "fieldname": "daira",
    "fieldtype": "Link",
-   "label": "R\u00e9gion",
-   "options": "Territory"
+   "label": "Daira",
+   "options": "Daira"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-10 14:57:03.538661",
+ "modified": "2025-03-16 13:08:19.648019",
  "modified_by": "Administrator",
  "module": "Algeria",
  "name": "Commune",
