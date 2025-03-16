@@ -242,3 +242,7 @@ required_apps = ["erpnext"]
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Commune"},
+    {"dt": "Wilaya"}
+]

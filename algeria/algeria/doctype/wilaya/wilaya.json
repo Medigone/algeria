@@ -7,10 +7,10 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "code",
   "nom",
   "nom_ar",
   "column_break_qaoe",
-  "code",
   "region"
  ],
  "fields": [
@@ -50,7 +50,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-16 13:12:50.182576",
+ "modified": "2025-03-16 15:51:56.543492",
  "modified_by": "Administrator",
  "module": "Algeria",
  "name": "Wilaya",
