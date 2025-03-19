@@ -50,7 +50,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-16 15:51:56.543492",
+ "modified": "2025-03-19 14:11:01.213770",
  "modified_by": "Administrator",
  "module": "Algeria",
  "name": "Wilaya",
@@ -68,6 +68,11 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "read": 1,
+   "role": "All",
+   "select": 1
   }
  ],
  "show_title_field_in_link": 1,
